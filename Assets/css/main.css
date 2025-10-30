@@ -15,7 +15,7 @@ body {
 }
 
 .font__secondary {
-    color: #8F7D6A;
+    color: #8F7D6A ;
 }
 
 .fw__light {
@@ -95,6 +95,7 @@ body {
 /* start hero */
 .hero {
     background-color: #e8e6de;
+    height: 100vh;
 }
 
 .hero-content button {
@@ -344,3 +345,36 @@ body {
     width: 15px;
 }
 /* end sin-up */
+
+/* start clients */
+.clients {
+  background-color: #faf8f5;
+}
+.clients .nav-link {
+  transition: all 0.3s ease;
+}
+
+.clients .nav-link.active,
+.clients .nav-link:hover {
+  background-color: #f8f8f6;
+  border-radius: 50px;
+}
+
+.testimonial-box {
+  border-radius: 9px;
+  padding: 40px 60px;
+  min-height: 220px;
+  position: relative;
+  z-index: 1;
+}
+.clients .nav-link.active {
+  border: 1px solid #503217 !important;
+  border-radius: 12px; 
+  padding: 6px 12px; 
+}
+
+.clients .nav-link {
+  transition: border 0.6s ;
+}
+
+/* end clients */

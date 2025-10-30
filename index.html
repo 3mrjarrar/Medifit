@@ -14,7 +14,7 @@
 
 <body>
     <main>
-        <section class="main-navbar sticky-top position-sticky ">
+         <section class="main-navbar sticky-top position-sticky ">
             <nav class="navbar navbar-expand-lg">
                 <div class="container container-narrow">
 
@@ -605,16 +605,115 @@
                                         <img class="link-icon" src="./Assets/images/signUp/email.svg" alt="">
                                         <input type="email" placeholder="Enter Email" class="email">
                                     </div>
-                                    
-                                </form><div class="signup-button">
-                                        <button class="bg__main py-2 px-3 text-white d-flex gap-1 radius__main border__none font__small justify-content-center align-items-center"><img class="link-icon" src="./Assets/images/signUp/link-external.svg" alt="">Sign up</button>
-                                    </div>
+
+                                </form>
+                                <div class="signup-button">
+                                    <button
+                                        class="bg__main py-2 px-3 text-white d-flex gap-1 radius__main border__none font__small justify-content-center align-items-center"><img
+                                            class="link-icon" src="./Assets/images/signUp/link-external.svg" alt="">Sign
+                                        up</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="clients py-5 text-center">
+            <h2 class="font__main py-5">Our happy clients</h2>
+            <div class="container text-center">
+                <div class="container container-narrow">
+                    
+                    <div class="testimonial-box  bg-white position-relative">
+                        <div class="quotaions position-absolute "><img src="./Assets/images/clients/content.svg" alt=""></div>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active mt-5 pt-3" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab" tabindex="0">
+                                <p class="font__secondary">I’m so impressed with this online medical store. The product selection is extensive
+                                    and the prices are great. I found everything I needed in one place. The ordering
+                                    process was easy, delivery was prompt, and the items arrived in perfect condition.
+                                    Plus, the customer service team was incredibly helpful.</p>
+                            </div>
+
+                            <div class="tab-pane fade mt-5 pt-3" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab" tabindex="0">
+                                <p class="font__secondary">This store has completely changed how I buy medical supplies. The website is
+                                    user-friendly, and I always receive what I order on time. Highly recommended!</p>
+                            </div>
+
+                            <div class="tab-pane fade mt-5 pt-3" id="pills-contact" role="tabpanel"
+                                aria-labelledby="pills-contact-tab" tabindex="0">
+                                <p class="font__secondary">Fantastic service! The support team went above and beyond to help me choose the right
+                                    products. Everything arrived quickly and securely packed.</p>
+                            </div>
+
+                            <div class="tab-pane fade mt-5 pt-3" id="pills-disabled" role="tabpanel"
+                                aria-labelledby="pills-disabled-tab" tabindex="0">
+                                <p class="font__secondary">I've been a loyal customer for months now. The product quality and delivery
+                                    consistency make this store my go-to choice for all medical needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="nav nav-pills mt-5 d-flex justify-content-center align-items-center gap-4"
+                    id="pills-tab" role="tablist">
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link p-3 active  bg-transparent p-0 d-flex align-items-center gap-3"
+                            id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
+                            role="tab" aria-controls="pills-home" aria-selected="true">
+                            <img src="./Assets/images/clients/client1 (3).webp" alt="Client 1" class="client-img">
+                            <div class="text-start">
+                                <h6 class=" fw-semibold font__main">James Wilson</h6>
+                                <small class="font__secondary">Manager</small>
+                            </div>
+                        </button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link p-3  bg-transparent p-0 d-flex align-items-center gap-3"
+                            id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
+                            role="tab" aria-controls="pills-profile" aria-selected="false">
+                            <img src="./Assets/images/clients/client2.webp" alt="Client 2" class="client-img">
+                            <div class="text-start">
+                                <h6 class=" fw-semibold font__main">Henry Adams</h6>
+                                <small class="font__secondary">CEO</small>
+                            </div>
+                        </button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link p-3  bg-transparent p-0 d-flex align-items-center gap-3"
+                            id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button"
+                            role="tab" aria-controls="pills-contact" aria-selected="false">
+                            <img src="./Assets/images/clients/client3.webp" alt="Client 3" class="client-img">
+                            <div class="text-start">
+                                <h6 class=" fw-semibold font__main">Ethan Harris</h6>
+                                <small class="font__secondary">Busnuiss manager</small>
+                            </div>
+                        </button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link  p-3  bg-transparent p-0 d-flex align-items-center gap-3"
+                            id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button"
+                            role="tab" aria-controls="pills-disabled" aria-selected="false">
+                            <img src="./Assets/images/clients/client4.webp" alt="Client 4" class="client-img">
+                            <div class="text-start">
+                                <h6 class=" fw-semibold font__main">Lily Baker</h6>
+                                <small class="font__secondary">Product manager</small>
+                            </div>
+                        </button>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+
+
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
