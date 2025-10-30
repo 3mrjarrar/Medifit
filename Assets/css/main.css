@@ -378,3 +378,35 @@ body {
 }
 
 /* end clients */
+/* start follow */
+.follow,.overlay{
+    background-color:#faf8f5 ;
+}
+.follow2,.overlay2{
+    border-radius: 50px 50px 9px 9px;
+}
+.follow3,.overlay3{
+    border-radius: 50%;
+}
+.follow4,.overlay4{
+    border-radius: 50% 50% 9px 9px;
+}
+.follow-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.6); 
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.position-relative:hover .follow-overlay {
+  opacity: 1; 
+}
+
+.overlay-icon img,
+.overlay-info p {
+  opacity: 1;
+  color: #503217;
+}
+
+/* end follow */
