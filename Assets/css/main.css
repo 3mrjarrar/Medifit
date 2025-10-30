@@ -410,3 +410,20 @@ body {
 }
 
 /* end follow */
+/* start footer */
+
+.footer{
+    background-color:#e8e6de ;
+}
+.footer .socails-medifit{
+        width: 250px;
+}
+.footer .socials p {
+    max-width: 85%;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer .contact-info p{
+    width: 241px;;
+}
+/* end footer*/
