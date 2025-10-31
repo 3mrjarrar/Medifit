@@ -10,6 +10,9 @@ body {
     font-family: 'Poppins', sans-serif !important;
 }
 
+.bg__secondary{
+    color: #e8e6de;
+}
 .font__main {
     color: var(--font-main);
 }

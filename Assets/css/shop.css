@@ -41,3 +41,25 @@ border-radius: 16px 16px 16px 0;
   background-color: #e8e6de;
 }
 /* end recent*/
+
+/* start community */
+.community-section {
+  background-color: #e8e6de; /* outer background */
+}
+
+.community {
+  border-radius: 9px;
+}
+.right-imgs img,.left-imgs img {
+width: 250px;
+}
+.left-imgs,
+.right-imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end !important; /* push images to the bottom */
+  height: 100%;
+}
+
+
+/* end community */
