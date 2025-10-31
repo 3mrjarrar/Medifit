@@ -17,3 +17,20 @@
     background-color:#e8e6de ;
 }
 /* end featrues */
+/* start reviews*/
+.reviews{
+    background-color: #e8e6de;
+}
+.reviews .review-content{
+border-radius: 16px 16px 16px 0;
+}
+
+.reviews .row {
+  display: flex;
+  align-items: stretch;
+}
+.review {
+  height: 100%;
+}
+
+/* end reviews*/

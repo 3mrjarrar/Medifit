@@ -25,8 +25,11 @@ body {
 .bg__primary {
     color: #F2F2F2;
 }
-.font__small{
+.font__xsmall{
     font-size: x-small;
+}
+.font__small{
+    font-size: small;
 }
 .font__large{
     font-size: large;
