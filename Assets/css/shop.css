@@ -1,5 +1,5 @@
 .shop-hero {
-    background-color: #e8e6de;
+    background-color: #EEEDE7;
 }
 
 .shop-hero .number-input {
@@ -14,12 +14,12 @@
 /* end shop-hero */
 /* start featrues */
 .features{
-    background-color:#e8e6de ;
+    background-color:#EEEDE7 ;
 }
 /* end featrues */
 /* start reviews*/
 .reviews{
-    background-color: #e8e6de;
+    background-color: #EEEDE7;
 }
 .reviews .review-content{
 border-radius: 16px 16px 16px 0;
@@ -38,13 +38,13 @@ border-radius: 16px 16px 16px 0;
 
 
 .shop-page .latest-products {
-  background-color: #e8e6de;
+  background-color: #EEEDE7;
 }
 /* end recent*/
 
 /* start community */
 .community-section {
-  background-color: #e8e6de; /* outer background */
+  background-color: #EEEDE7; /* outer background */
 }
 
 .community {

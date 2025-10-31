@@ -16,11 +16,11 @@
 <body class="shop-page">
 
     <main>
-        <section class="main-navbar sticky-top position-sticky ">
+        <section class="main-navbar sticky-top position-sticky">
             <nav class="navbar navbar-expand-lg">
                 <div class="container container-narrow">
 
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="./index.html">
                         <img src="./Assets/images/navbar/MedifitLogo.webp" alt="">
                     </a>
 
@@ -33,27 +33,28 @@
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                         <ul class="navbar-nav mx-auto align-items-center gap-2 order-lg-1 text-center">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Shop</a>
+                                <a class="nav-link" href="./shop.html">Shop</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">Pages</a>
                                 <ul class="dropdown-menu font-main text-lg-start text-center">
-                                    <li><a class="dropdown-item" href="#">Shop</a></li>
-                                    <li><a class="dropdown-item" href="#">About</a></li>
+                                    <li><a class="dropdown-item" href="./shop.html">Shop</a></li>
+                                    <li><a class="dropdown-item" href="./about.html">About</a></li>
                                     <li><a class="dropdown-item" href="#">Contact</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="./about.html">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact</a>
                             </li>
 
+                            <!-- Mobile search -->
                             <li class="nav-item d-lg-none">
                                 <button class="btn rounded-circle d-flex align-items-center justify-content-center"
                                     type="button" id="searchDropdown" data-bs-toggle="dropdown" aria-label="Search">
@@ -68,8 +69,10 @@
                                     <input type="text" class="form-control" placeholder="Search..." id="searchInput">
                                 </div>
                             </li>
+
+                            <!-- Mobile cart -->
                             <li class="nav-item d-lg-none">
-                                <a class="nav-link" href="" aria-label="Cart">
+                                <a class="nav-link" href="#" aria-label="Cart">
                                     <svg class="cart-svg w-auto" width="25" height="25"
                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor"
                                         role="img">
@@ -80,6 +83,7 @@
                             </li>
                         </ul>
 
+                        <!-- Desktop icons -->
                         <div
                             class="nav-btns d-none d-lg-flex justify-content-center align-items-center gap-4 order-lg-2 ms-lg-3">
                             <div class="nav-search">
@@ -97,7 +101,7 @@
                                 </div>
                             </div>
                             <div class="nav-cart">
-                                <a class="text-decoration-none" href="" aria-label="Cart">
+                                <a class="text-decoration-none" href="#" aria-label="Cart">
                                     <img src="./Assets/images/navbar/cart.svg" alt="">
                                 </a>
                             </div>
@@ -165,49 +169,49 @@
                             </div>
                         </div>
 
-                        
+
                     </div>
 
                     <div class="col-md-3 col-sm-6"">
-                        <div class="feature d-flex flex-column gap-4 justify-content-center align-items-center">
-                            <div class="feature-icon">
-                                <img src="./Assets/images/shop images/features/Vector (1).svg" alt="">
-                            </div>
-                            <div class="feature-label">
-                                <h4 class="font__main">Easy refundh</h4>
-                            </div>
+                        <div class=" feature d-flex flex-column gap-4 justify-content-center align-items-center">
+                        <div class="feature-icon">
+                            <img src="./Assets/images/shop images/features/Vector (1).svg" alt="">
                         </div>
-
-                        
+                        <div class="feature-label">
+                            <h4 class="font__main">Easy refundh</h4>
+                        </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6"">
-                        <div class="feature d-flex flex-column gap-4 justify-content-center align-items-center">
-                            <div class="feature-icon">
-                                <img src="./Assets/images/shop images/features/Vector (2).svg" alt="">
-                            </div>
-                            <div class="feature-label">
-                                <h4 class="font__main">Online support</h4>
-                            </div>
-                        </div>
-
-                        
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                        <div class="feature d-flex flex-column gap-4 justify-content-center align-items-center">
-                            <div class="feature-icon">
-                                <img src="./Assets/images/shop images/features/Vector (3).svg" alt="">
-                            </div>
-                            <div class="feature-label">
-                                <h4 class="font__main">Fexible payment</h4>
-                            </div>
-                        </div>
-
-                        
-                    </div>
 
                 </div>
+
+                <div class="col-md-3 col-sm-6"">
+                        <div class=" feature d-flex flex-column gap-4 justify-content-center align-items-center">
+                    <div class="feature-icon">
+                        <img src="./Assets/images/shop images/features/Vector (2).svg" alt="">
+                    </div>
+                    <div class="feature-label">
+                        <h4 class="font__main">Online support</h4>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="feature d-flex flex-column gap-4 justify-content-center align-items-center">
+                    <div class="feature-icon">
+                        <img src="./Assets/images/shop images/features/Vector (3).svg" alt="">
+                    </div>
+                    <div class="feature-label">
+                        <h4 class="font__main">Fexible payment</h4>
+                    </div>
+                </div>
+
+
+            </div>
+
+            </div>
             </div>
 
         </section>
@@ -220,7 +224,8 @@
                         <div class="review">
                             <div class="review-content bg-white p-3 ">
                                 <img src="./Assets/images/shop images/customer review/message-lines.svg" alt="">
-                                <p class="font__secondary font__small">B12 Medicine keeps me energized and focused all day. A true lifesaver for vitality and wellness!</p>
+                                <p class="font__secondary font__small">B12 Medicine keeps me energized and focused all
+                                    day. A true lifesaver for vitality and wellness!</p>
                             </div>
                             <div class="reviewer d-flex gap-2 align-items-end pt-3">
                                 <img src="./Assets/images/shop images/customer review/Mask group.webp" alt="">
@@ -233,7 +238,8 @@
                         <div class="review">
                             <div class="review-content bg-white p-3">
                                 <img src="./Assets/images/shop images/customer review/message-lines.svg" alt="">
-                                <p class="font__secondary font__small">I’ve regained my energy and feel amazing thanks to B12 Medicine. Highly recommend for health and stamina!</p>
+                                <p class="font__secondary font__small">I’ve regained my energy and feel amazing thanks
+                                    to B12 Medicine. Highly recommend for health and stamina!</p>
                             </div>
                             <div class="reviewer d-flex gap-2 align-items-end  pt-3">
                                 <img src="./Assets/images/shop images/customer review/Mask group (1).webp" alt="">
@@ -246,7 +252,8 @@
                         <div class="review">
                             <div class="review-content bg-white p-3">
                                 <img src="./Assets/images/shop images/customer review/message-lines.svg" alt="">
-                                <p class="font__secondary font__small">As a vegetarian, B12 Medicine keeps my energy up and my health on track. Perfect for natural support!</p>
+                                <p class="font__secondary font__small">As a vegetarian, B12 Medicine keeps my energy up
+                                    and my health on track. Perfect for natural support!</p>
                             </div>
                             <div class="reviewer d-flex gap-2 align-items-end  pt-3">
                                 <img src="./Assets/images/shop images/customer review/Mask group (2).webp" alt="">
@@ -256,144 +263,147 @@
                     </div>
                 </div>
             </div>
-        </section>  
+        </section>
 
         <section class="recent-products">
             <section class="latest-products text-center py-5">
-            <h2 class="font__main py-5">Recent products</h2>
+                <h2 class="font__main py-5">Recent products</h2>
+                <div class="container container-narrow">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product h-100">
+                                <div
+                                    class="latest-img d-flex justify-content-center align-items-center justify-content-center bg-white py-4 position-relative">
+                                    <img src="./Assets/images/latest products/microscope.webp" alt="">
+                                    <div class="new position-absolute">
+                                        <p class="btn__main  text-white pt-1 pb-1 ps-2 pe-2">New</p>
+                                    </div>
+                                    <button class="shop font__main position-absolute"><img class="me-1"
+                                            src="./Assets/images/latest products/cart-shopping-fast.svg" alt="">Shop
+                                        now</button>
+                                </div>
+
+                                <div class="latest-info text-start pt-3">
+                                    <h4 class="font__main font__large">Microscope</h4>
+                                    <p class="font__secondary"><span>$45.00 USD</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product h-100">
+                                <div class="latest-img bg-white py-4 position-relative d-flex justify-content-center">
+                                    <img class="align-items-end"
+                                        src="./Assets/images/latest products/sleek-pulse-oximeter-with-soft-ambient-lighting.webp"
+                                        alt="">
+                                    <div class="new position-absolute">
+                                        <p class="btn__main  text-white pt-1 pb-1 ps-2 pe-2">Save 10%</p>
+                                    </div>
+                                    <button class="shop font__main position-absolute"><img class="me-1"
+                                            src="./Assets/images/latest products/cart-shopping-fast.svg" alt="">Shop
+                                        now</button>
+                                </div>
+
+                                <div class="latest-info text-start pt-3">
+                                    <h4 class="font__main font__large">Pulse oximeter</h4>
+                                    <div class="  price d-flex gap-3">
+                                        <p class="font__secondary new-price"><span>$19.00 USD</span></p>
+                                        <p class=""><span
+                                                class=" old-price font__secondary text-decoration-line-through">$25.00
+                                                USD</span></p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product ">
+                                <div class="latest-img d-flex justify-content-center bg-white py-4 position-relative">
+                                    <img src="./Assets/images/latest products/serum.webp" alt="">
+                                    <button class="shop font__main position-absolute"><img class="me-1"
+                                            src="./Assets/images/latest products/cart-shopping-fast.svg" alt="">Shop
+                                        now</button>
+                                </div>
+
+                                <div class="latest-info text-start pt-3">
+                                    <h4 class="font__main font__large">Vitamin serum</h4>
+                                    <div class="  price d-flex gap-3">
+                                        <p class="font__secondary new-price"><span>$20.00 USD</span></p>
+                                        <p class=""><span
+                                                class=" old-price font__secondary text-decoration-line-through">$30.00
+                                                USD</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product ">
+                                <div class="latest-img d-flex justify-content-center bg-white py-4 position-relative">
+                                    <img src="./Assets/images/latest products/protein.webp" alt="">
+                                    <div class="new position-absolute">
+                                        <p class="btn__main  text-white pt-1 pb-1 ps-2 pe-2">New</p>
+                                    </div>
+                                    <button class="shop font__main position-absolute"><img class="me-1"
+                                            src="./Assets/images/latest products/cart-shopping-fast.svg" alt="">Shop
+                                        now</button>
+                                </div>
+
+                                <div class="latest-info text-start pt-3">
+                                    <h4 class="font__main font__large">High protein </h4>
+                                    <p class="font__secondary"><span>$50.00 USD</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </section>
+
+        <section class="community-section py-5">
             <div class="container container-narrow">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product h-100">
-                            <div
-                                class="latest-img d-flex justify-content-center align-items-center justify-content-center bg-white py-4 position-relative">
-                                <img src="./Assets/images/latest products/microscope.webp" alt="">
-                                <div class="new position-absolute">
-                                    <p class="btn__main  text-white pt-1 pb-1 ps-2 pe-2">New</p>
+                <div class="community ps-5 bg-white">
+                    <div class="row ">
+                        <div class="col-md-4 align-content-center">
+                            <div class="community-content d-flex flex-column gap-5  ">
+                                <h2 class="font__main">Join our trustable Medifit product community</h2>
+                                <p class="font__secondary">
+                                    Join us as we build a community where wellness is accessible,
+                                    education is empowering, and health is a shared journey.
+                                </p>
+                                <div class="started-button align-items-start">
+                                    <button class="btn__secondary text-white p-2">
+                                        Get started <img
+                                            src="./Assets/images/shop images/customer review/getStarted.svg" alt="">
+                                    </button>
                                 </div>
-                                <button class="shop font__main position-absolute"><img class="me-1"
-                                        src="./Assets/images/latest products/cart-shopping-fast.svg" alt="">Shop
-                                    now</button>
-                            </div>
-
-                            <div class="latest-info text-start pt-3">
-                                <h4 class="font__main font__large">Microscope</h4>
-                                <p class="font__secondary"><span>$45.00 USD</span></p>
                             </div>
                         </div>
-                    </div>
 
-
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product h-100">
-                            <div class="latest-img bg-white py-4 position-relative d-flex justify-content-center">
-                                <img class="align-items-end"
-                                    src="./Assets/images/latest products/sleek-pulse-oximeter-with-soft-ambient-lighting.webp"
+                        <div class="col-md-4 d-flex justify-content-end ">
+                            <div class="left-imgs ">
+                                <img class="img-fluid" src="./Assets/images/shop images/community/pills.webp" alt="">
+                                <img class="pt-4 img-fluid" src="./Assets/images/shop images/community/tester.webp"
                                     alt="">
-                                <div class="new position-absolute">
-                                    <p class="btn__main  text-white pt-1 pb-1 ps-2 pe-2">Save 10%</p>
-                                </div>
-                                <button class="shop font__main position-absolute"><img class="me-1"
-                                        src="./Assets/images/latest products/cart-shopping-fast.svg" alt="">Shop
-                                    now</button>
-                            </div>
-
-                            <div class="latest-info text-start pt-3">
-                                <h4 class="font__main font__large">Pulse oximeter</h4>
-                                <div class="  price d-flex gap-3">
-                                    <p class="font__secondary new-price"><span>$19.00 USD</span></p>
-                                    <p class=""><span
-                                            class=" old-price font__secondary text-decoration-line-through">$25.00
-                                            USD</span></p>
-                                </div>
-
                             </div>
                         </div>
-                    </div>
 
-
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product ">
-                            <div class="latest-img d-flex justify-content-center bg-white py-4 position-relative">
-                                <img src="./Assets/images/latest products/serum.webp" alt="">
-                                <button class="shop font__main position-absolute"><img class="me-1"
-                                        src="./Assets/images/latest products/cart-shopping-fast.svg" alt="">Shop
-                                    now</button>
-                            </div>
-
-                            <div class="latest-info text-start pt-3">
-                                <h4 class="font__main font__large">Vitamin serum</h4>
-                                <div class="  price d-flex gap-3">
-                                    <p class="font__secondary new-price"><span>$20.00 USD</span></p>
-                                    <p class=""><span
-                                            class=" old-price font__secondary text-decoration-line-through">$30.00
-                                            USD</span></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product ">
-                            <div class="latest-img d-flex justify-content-center bg-white py-4 position-relative">
-                                <img src="./Assets/images/latest products/protein.webp" alt="">
-                                <div class="new position-absolute">
-                                    <p class="btn__main  text-white pt-1 pb-1 ps-2 pe-2">New</p>
-                                </div>
-                                <button class="shop font__main position-absolute"><img class="me-1"
-                                        src="./Assets/images/latest products/cart-shopping-fast.svg" alt="">Shop
-                                    now</button>
-                            </div>
-
-                            <div class="latest-info text-start pt-3">
-                                <h4 class="font__main font__large">High protein </h4>
-                                <p class="font__secondary"><span>$50.00 USD</span></p>
+                        <div class="col-md-4 d-flex ">
+                            <div class="right-imgs">
+                                <img class="img-fluid" src="./Assets/images/shop images/community/fatPills.webp" alt="">
+                                <img class="pt-4 img-fluid" src="./Assets/images/shop images/community/vaitamins.webp"
+                                    alt="">
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
-        </section>
-        
-        <section class="community-section py-5">
-  <div class="container container-narrow">
-    <div class="community ps-5 bg-white">
-      <div class="row ">
-        <div class="col-md-4 align-content-center">
-          <div class="community-content d-flex flex-column gap-5  ">
-            <h2 class="font__main">Join our trustable Medifit product community</h2>
-            <p class="font__secondary">
-              Join us as we build a community where wellness is accessible,
-              education is empowering, and health is a shared journey.
-            </p>
-            <div class="started-button align-items-start">
-              <button class="btn__secondary text-white p-2">
-                Get started <img src="./Assets/images/shop images/customer review/getStarted.svg" alt="">
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 d-flex justify-content-end ">
-          <div class="left-imgs ">
-            <img class="img-fluid" src="./Assets/images/shop images/community/pills.webp" alt="">
-            <img class="pt-4 img-fluid" src="./Assets/images/shop images/community/tester.webp" alt="">
-          </div>
-        </div>
-
-        <div class="col-md-4 d-flex ">
-          <div class="right-imgs">
-            <img class="img-fluid" src="./Assets/images/shop images/community/fatPills.webp" alt="">
-            <img class="pt-4 img-fluid" src="./Assets/images/shop images/community/vaitamins.webp" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 
         <section class="footer py-5">
