@@ -1,5 +1,9 @@
+.fs__header{
+    font-size: 60px;
+}
+
 .about-hero{
-    background-color: #e8e6de;
+    background-color: #EEEDE7;
 }
 
  .header-h2 {
@@ -7,5 +11,17 @@
 }
 
 .features {
-    background-color: #e8e6de;
+    background-color: #EEEDE7;
+}
+
+.expect{
+     background-color: #e8e6de;
+}
+
+.community-section{
+    background-color: #EEEDE7;
+    
+}
+.community{
+    border-radius: 9px;
 }

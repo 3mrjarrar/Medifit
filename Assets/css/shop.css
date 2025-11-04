@@ -44,7 +44,7 @@ border-radius: 16px 16px 16px 0;
 
 /* start community */
 .community-section {
-  background-color: #e8e6de; /* outer background */
+  background-color: #e8e6de; 
 }
 
 .community {
@@ -57,7 +57,7 @@ width: 250px;
 .right-imgs {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end !important; /* push images to the bottom */
+  justify-content: flex-end !important; 
   height: 100%;
 }
 
