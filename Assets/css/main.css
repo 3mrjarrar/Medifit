@@ -319,7 +319,7 @@ body {
 .field{
   position: relative;
   background: var(--bg);
-  border: 1.5px solid var(--font-main);
+  border: 1px solid var(--font-main);
   border-radius: 9px;
   height: 30px;
 }

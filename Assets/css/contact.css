@@ -1,3 +1,38 @@
 .contact-us{
     background-color: #EEEDE7;
 }
+
+
+
+.contact-field input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #503217;
+  background: transparent;
+  border-radius: 9px;
+  color: #503217;
+  
+ 
+}
+
+.contact-field img {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+}
+.left{
+    
+}
+.message-box textarea{
+    border: 1px solid #503217;
+    border-radius: 9px;
+    position: relative;
+}
+
+.message-box img{
+    top: 8px;
+    left: 8px;
+}
