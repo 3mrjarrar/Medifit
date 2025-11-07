@@ -36,3 +36,55 @@
     top: 8px;
     left: 8px;
 }
+
+/* === Accordion Custom Style === */
+.accordion-item {
+  border: 1px solid #503217;
+  border-radius: 9px;
+  overflow: hidden;
+   border-top: 1px solid #503217 !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  outline: none;
+  border-color: transparent;
+}
+
+.accordion-button {
+  background: transparent;
+  color: #503217;
+  font-weight: 500;
+  padding: 15px 20px;
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background: transparent;
+  color: #503217;
+}
+
+
+
+
+.accordion-body {
+  background: transparent;
+  color: #503217;
+  padding: 0 20px 15px;
+}
+
+.accordion-button::after {
+  display: none;
+}
+.accordion-header img {
+  width: 25px;
+  margin: 5px;
+  transition: transform 0.3s;
+}
+
+.accordion-button:not(.collapsed) img {
+  transform: rotate(45deg);
+}
+.faq h2{
+  font-size: 50px;
+}
