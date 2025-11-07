@@ -5,6 +5,48 @@
       --bg:#EBE9E0;
       
 }
+.hover-effect {
+  transition: all 0.3s ease; 
+}
+
+.hover-effect:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+a {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.footer li a {
+  transition: all 0.3s ease;
+  display: inline-block; 
+}
+
+.footer li a:hover {
+  color: #503217;
+  transform: scale(1.05);
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.hover-effect:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  cursor: pointer;
+}
 
 body {
     font-family: 'Poppins', sans-serif !important;
